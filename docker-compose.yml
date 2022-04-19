@@ -40,7 +40,7 @@ services:
     depends_on:
       - irt-back
     ports:
-      - 80:4200
+      - 3000:4200
 
 networks:
   backend:
