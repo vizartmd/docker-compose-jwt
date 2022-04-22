@@ -35,7 +35,7 @@ services:
       - backend
 
   irt-front:
-    image: vizartmd/irt-front-jwt:1.0.2
+    image: vizartmd/irt-front-jwt:1.0.3
     restart: on-failure
     depends_on:
       - irt-back
