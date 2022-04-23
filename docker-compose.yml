@@ -18,7 +18,7 @@ services:
        - backend
          
   irt-back:
-    image: vizartmd/irt-back-end-jwt:1.0.8
+    image: 76722/irt-back-end
     restart: on-failure
     depends_on:
       - irt-mysql
